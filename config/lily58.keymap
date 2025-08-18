@@ -74,11 +74,11 @@
 
         macos {
             bindings = <
-&trans            &trans  &trans  &trans  &trans            &trans                           &trans  &trans             &trans  &trans  &trans  &trans
-&trans            &trans  &trans  &trans  &trans            &trans                           &trans  &trans             &trans  &trans  &trans  &trans
-&trans            &trans  &trans  &trans  &trans            &trans                           &trans  &trans             &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &trans  &trans  &trans  &trans            &trans         &trans    &trans  &trans  &trans             &trans  &trans  &trans  &trans
-                                  &mo 2   &kp LEFT_COMMAND  &kp RIGHT_ALT  &trans    &trans  &trans  &kp RIGHT_COMMAND  &trans
+&trans            &trans  &trans  &trans  &trans            &trans                          &trans  &trans             &trans  &trans  &trans  &trans
+&trans            &trans  &trans  &trans  &trans            &trans                          &trans  &trans             &trans  &trans  &trans  &trans
+&trans            &trans  &trans  &trans  &trans            &trans                          &trans  &trans             &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &trans  &trans  &trans  &trans            &trans        &trans    &trans  &trans  &trans             &trans  &trans  &trans  &trans
+                                  &mo 2   &kp LEFT_COMMAND  &kp LEFT_ALT  &trans    &trans  &trans  &kp RIGHT_COMMAND  &trans
             >;
         };
     };
