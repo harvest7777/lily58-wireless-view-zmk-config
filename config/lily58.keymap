@@ -42,10 +42,10 @@
 
             display-name = "Lower";
             bindings = <
-&kp TILDE        &trans  &trans  &trans  &trans  &trans                                                &trans          &trans                &kp MINUS              &kp KP_PLUS    &trans  &trans
-&kp GRAVE        &trans  &trans  &trans  &trans  &trans                                                &kp EQUAL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE       &trans  &trans
-&trans           &trans  &trans  &trans  &trans  &trans                                                &kp UNDERSCORE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &trans  &trans
-&kp PRINTSCREEN  &trans  &trans  &trans  &trans  &trans  &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC  &kp INSERT      &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans  &trans
+&kp TILDE        &trans  &trans  &trans  &trans  &trans                                                &trans          &trans                &trans                 &trans         &trans      &trans
+&kp GRAVE        &trans  &trans  &trans  &trans  &trans                                                &kp EQUAL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans      &kp DEL
+&trans           &trans  &trans  &trans  &trans  &trans                                                &kp UNDERSCORE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp ESCAPE  &trans
+&kp PRINTSCREEN  &trans  &trans  &trans  &trans  &trans  &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC  &kp KP_MINUS    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans      &trans
                                  &trans  &trans  &trans  &trans                  &trans                &trans          &trans                &trans
             >;
 
@@ -74,11 +74,11 @@
 
         macos {
             bindings = <
-&trans            &trans  &trans  &trans  &trans        &trans                              &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans  &trans  &trans  &trans        &trans                              &trans  &trans  &trans  &trans  &trans  &trans
-&trans            &trans  &trans  &trans  &trans        &trans                              &trans  &trans  &trans  &trans  &trans  &trans
-&kp LEFT_CONTROL  &trans  &trans  &trans  &trans        &trans            &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                                  &trans  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans    &trans  &trans  &trans  &trans
+&trans            &trans  &trans  &trans  &trans            &trans                           &trans  &trans             &trans  &trans  &trans  &trans
+&trans            &trans  &trans  &trans  &trans            &trans                           &trans  &trans             &trans  &trans  &trans  &trans
+&trans            &trans  &trans  &trans  &trans            &trans                           &trans  &trans             &trans  &trans  &trans  &trans
+&kp LEFT_CONTROL  &trans  &trans  &trans  &trans            &trans         &trans    &trans  &trans  &trans             &trans  &trans  &trans  &trans
+                                  &mo 2   &kp LEFT_COMMAND  &kp RIGHT_ALT  &trans    &trans  &trans  &kp RIGHT_COMMAND  &trans
             >;
         };
     };
