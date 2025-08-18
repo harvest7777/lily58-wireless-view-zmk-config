@@ -43,7 +43,7 @@
             display-name = "Lower";
             bindings = <
 &kp TILDE        &trans  &trans  &trans  &trans  &trans                                                &trans          &trans                &trans                 &trans         &trans      &trans
-&kp GRAVE        &trans  &trans  &trans  &trans  &trans                                                &kp EQUAL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans      &kp DEL
+&kp GRAVE        &trans  &trans  &trans  &trans  &trans                                                &kp EQUAL       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans      &kp DELETE
 &trans           &trans  &trans  &trans  &trans  &trans                                                &kp UNDERSCORE  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &kp ESCAPE  &trans
 &kp PRINTSCREEN  &trans  &trans  &trans  &trans  &trans  &kp C_BRIGHTNESS_DEC    &kp C_BRIGHTNESS_INC  &kp KP_MINUS    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans      &trans
                                  &trans  &trans  &trans  &trans                  &trans                &trans          &trans                &trans
